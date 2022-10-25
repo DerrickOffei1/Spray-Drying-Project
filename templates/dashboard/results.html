@@ -1,0 +1,45 @@
+{% extends 'partials/base.html' %} <br />
+{% block title %}Results{% endblock %} <br />
+{% block content %}
+<div class="container">
+	<div class="row">
+		<div class="col-md-8 offset-md-2">
+			<div class="card shadow">
+				<div class="card-header">Predicted Output</div>
+				<div class="card-body">
+					<table class="table">
+						<thead>
+							<tr>
+								<th scope="col">Predicted Output</th>
+								<th scope="col">Values</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td class="table-success">Yield</td>
+								<td class="table-success">{{data.Yield|floatformat:2}}</td>
+							</tr>
+							<tr>
+								<td class="table-primary">MoistureContent</td>
+								<td class="table-primary">
+									{{data.MoistureContent|floatformat:2}}
+								</td>
+							</tr>
+							<tr>
+								<td class="table-warning">ColorChange</td>
+								<td class="table-warning">
+									{{data.ColorChange|floatformat:2}}
+								</td>
+							</tr>
+							<tr>
+								<td class="table-secondary">Wettability</td>
+								<td class="table-secondary">{{data.R|floatformat:2}}</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+{% endblock %}

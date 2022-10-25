@@ -1,0 +1,25 @@
+{% extends 'partials/base.html' %} <br />
+{% block title %}Home Page{% endblock %} <br />
+{% load crispy_forms_tags %} <br />
+{% block content %}
+<div class="container">
+	<div class="row">
+		<div class="col-md-8 offset-md-2">
+			<div class="card shadow">
+				<div class="card-header">Input Parameters</div>
+				<div class="card-body">
+					<form method="POST">
+						{% csrf_token %} {{ form|crispy }}
+
+						<input
+							class="btn btn-secondary m-3"
+							type="submit"
+							value="Predict"
+						/>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+{% endblock %}
