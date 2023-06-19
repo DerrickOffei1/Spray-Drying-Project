@@ -6,5 +6,18 @@ Food supply and consumption have contributed to climate change and environmental
 </p>
 
 # Methodology
+1. Data collection
+2. Preprocess data
+3. Split data into training and testing parts
+4. Build Machine Learning Model
+5. Train ML model with training set
+6. Test ML model with testing set
+7. Analyze results
+8. Deploy ML model onto web application
+9. Deploy web application
+
+
+
+
 
 
