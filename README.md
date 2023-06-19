@@ -6,6 +6,9 @@ Food supply and consumption have contributed to climate change and environmental
 </p>
 
 # Methodology
+<p>
+The methodology used in this project invloved the following steps
+</p>
 1. Data collection
 2. Preprocess data
 3. Split data into training and testing parts
