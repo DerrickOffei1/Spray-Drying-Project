@@ -21,6 +21,9 @@ The methodology used in this project invloved the following steps
 8. Deploy ML model onto web application
 9. Deploy web application
 
+<p>
+The flowchat below shows the machine learning development process
+</p>
 
 ![flowchat](flow.jpg "Title")
 
