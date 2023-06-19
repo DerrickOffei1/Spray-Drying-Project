@@ -22,7 +22,7 @@ The methodology used in this project invloved the following steps
 9. Deploy web application
 
 
-![flowchat](flow.jpeg "Title")
+![flowchat](flow.jpg "Title")
 
 
 
